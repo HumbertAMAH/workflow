@@ -56,7 +56,7 @@ function SidebarNav() {
                       isActive ? "bg-indigo-100 text-indigo-700" : "bg-slate-100 text-slate-500",
                     )}
                   >
-                    {counts[filter]}
+                    {counts[filter]
                   </span>
                 )}
               </Link>
